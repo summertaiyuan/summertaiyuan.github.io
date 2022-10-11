@@ -1,12 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
+<html> 
+<SCRIPT LANGUAGE='JavaScript'> 
+	function addline(text, textColor) { 
+		var newDiv = document.createElement('DIV'); 
+		newDiv.style.color = textColor; 
+		newDiv.innerHTML = text;  
+		document.getElementById('contentDiv').appendChild(newDiv); 
+		window.scroll(0,window.document.body.scrollHeight); 
+	} 
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+	function clearContent() {
+		var cnt = document.getElementById('contentDiv');
+		while(cnt.children.length > 0) {
+			cnt.removeChild(cnt.children[0]);
+		}
+	}
+</SCRIPT> 
+<style> 
+	a {color:#12f569; }
+	div {padding-top:2px;} 
+</style> 
+<body style='background-color:#000000; color:#ffffff; font-size:13px; font-family:Helvetica; margin-left:0px; margin-top:0px;'> 
+
+		<input id="a" type='button' value='增加一行' onclick="addline('aaaaaaa<a href=\'#\'>aaa</a>aaaaaaa','#ff0000');" />
+		<input id="b" type='button' value='清除内容' onclick="clearContent();" />
+		<div id='contentDiv' width='400'></div> 
 
 </body>
 </html>
