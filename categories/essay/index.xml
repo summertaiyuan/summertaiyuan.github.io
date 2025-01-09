@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on JuiceBar</title>
-    <link>https://juicebar-demo.add1.dev/post/</link>
-    <description>Recent content in Posts on JuiceBar</description>
+    <title>Essay on JuiceBar</title>
+    <link>https://juicebar-demo.add1.dev/categories/essay/</link>
+    <description>Recent content in Essay on JuiceBar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate><atom:link href="https://juicebar-demo.add1.dev/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Title</title>
-      <link>https://juicebar-demo.add1.dev/post/title/</link>
-      <pubDate>Fri, 10 Jan 2025 00:50:32 +0800</pubDate>
-      
-      <guid>https://juicebar-demo.add1.dev/post/title/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 10 Jan 2025 00:25:28 +0800</lastBuildDate><atom:link href="https://juicebar-demo.add1.dev/categories/essay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hello world: this is for everyone</title>
       <link>https://juicebar-demo.add1.dev/post/helloworld/</link>
@@ -46,27 +37,6 @@
 过去，读者总希望小说越长越好，因为他们花钱买小说书，当然想读出本钱来。于是，作家们就挖空心思在自己讲述的故事中添加许多的材料，他们找到了一条捷径那就是让小说中插入小说，有时插入的部分长得像一个中篇小说，而和整部小说的主题又毫无关系，即使有也是牵强附会的。《堂·吉诃德》的作者塞万提斯就是这么做的，而且其大胆程度简直无人能与之相比。那些插入的文字，后来一直被视为是这部不朽名著的一个污点，现在也不再有人会耐心地去读它们了。正因为这一点，塞万提斯受到了现代批评家的攻击。不过，我们知道，他在后半部里避免了这种不良倾向，因此要比前半部好得多，写出了那些被认为奇妙得不可思议的篇章。遗憾的是，他的后继者（他们肯定不读批评文章）并没有停止使用这种方法，他们继续向书商提供大量的廉价故事，足以满足读者的需要。到了19世纪，新的出版形式又使小说家面临新的诱惑。月刊因为用很大篇幅刊登消遣文学而大获成功，对此虽有人嗤之以鼻，但它却为小说作者提供好机会，即：在月刊上连载小说可得到丰厚的报酬。几乎与此同时，出版商也发现，在月刊上连载知名作家的小说是有利可图的。作家要按合同定期向出版商提供一定数量的小说，或者说要写满一定的页数。这样一来，就逼着他们慢吞吞地讲故事，一写就是洋洋万言。我们从他们自己说的话中就得知，这些连载小说的作者，甚至他们中最杰出的如狄更斯、萨克雷和特罗洛普等人也不是感到，要一次又一次定期交出等着连载的那部分小说，实在是一种难以承受的沉重负担。无怪乎，他们只好把小说拉长！无怪乎，他们只好用不相干的内容把故事弄得拖泥带水！所以，如果考虑到当时的小说家有那么多的障碍和陷阱，那么当你发现当时最优秀的小说也有缺陷时，就不会大惊小怪了。实际上，使我觉得惊讶的倒是，它们的缺陷并不像想象的那么多。
  毛姆 《什么是好小说》
  </description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://juicebar-demo.add1.dev/post/markdown_syntax_guide/</link>
-      <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
-      
-      <guid>https://juicebar-demo.add1.dev/post/markdown_syntax_guide/</guid>
-      <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://juicebar-demo.add1.dev/post/lorem-ipsum/</link>
-      <pubDate>Sun, 10 Apr 2022 16:50:28 +0800</pubDate>
-      
-      <guid>https://juicebar-demo.add1.dev/post/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur&amp;hellip;
-What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus utn mollis cursus ligula, et venenatis neque maximus ut</description>
     </item>
     
   </channel>
