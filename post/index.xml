@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JuiceBar</title>
-    <link>https://juicebar-demo.add1.dev/</link>
-    <description>Recent content on JuiceBar</description>
+    <title>Posts on JuiceBar</title>
+    <link>https://juicebar-demo.add1.dev/post/</link>
+    <description>Recent content in Posts on JuiceBar</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 Jan 2025 20:11:26 +0800</lastBuildDate>
-    <atom:link href="https://juicebar-demo.add1.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://juicebar-demo.add1.dev/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Title</title>
       <link>https://juicebar-demo.add1.dev/post/title/</link>
       <pubDate>Thu, 09 Jan 2025 20:11:26 +0800</pubDate>
       <guid>https://juicebar-demo.add1.dev/post/title/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://juicebar-demo.add1.dev/about/</link>
-      <pubDate>Thu, 09 Jan 2025 20:10:41 +0800</pubDate>
-      <guid>https://juicebar-demo.add1.dev/about/</guid>
       <description></description>
     </item>
   </channel>
