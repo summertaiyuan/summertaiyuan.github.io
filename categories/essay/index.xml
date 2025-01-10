@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Essay on JuiceBar</title>
+    <title>Essay on hello world ~~!</title>
     <link>https://juicebar-demo.add1.dev/categories/essay/</link>
-    <description>Recent content in Essay on JuiceBar</description>
+    <description>Recent content in Essay on hello world ~~!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 10 Jan 2025 00:25:28 +0800</lastBuildDate><atom:link href="https://juicebar-demo.add1.dev/categories/essay/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Fri, 10 Jan 2025 00:25:28 +0800</pubDate>
       
       <guid>https://juicebar-demo.add1.dev/post/helloworld/</guid>
-      <description>hello world $a = 12$</description>
+      <description>$$ a = 1 $$</description>
     </item>
     
     <item>
