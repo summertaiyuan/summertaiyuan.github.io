@@ -75,20 +75,7 @@ What is Lorem Ipsum? In mollis cursus ligula, et venenatis neque maximus utn mol
       <pubDate>Fri, 26 Apr 2019 20:18:54 +0300</pubDate>
       
       <guid>https://juicebar-demo.add1.dev/about/</guid>
-      <description>顾城
-是树木游泳的力量
-使鸟保持它的航程
-使它想起潮水的声音
-鸟在空中说话
-它说：中午
-它说：树冠的年龄
-芳香覆盖我们全身
-长长清凉的手臂越过内心
-我们在风中游泳
-寂静成型
-我们看不见最初的日子
-最初，只有爱情
-1985年5月</description>
+      <description>.content_container { display: grid; grid-template-columns: 25% 30%; /* Create two columns with some space between */ gap: 0%; /* Adjust gap between the divs */ align-items: center; /* Vertically center the image */ box-shadow: 0 4px 6px rgba(255, 255, 255, 0.733); justify-content: center } .poem-container { text-align: center; max-width: 600px; line-height: 1.3; padding: 20px; background: #ffffff; {{/* box-shadow: 0 4px 6px rgba(177, 1, 212, 0.733); */}} border-radius: 20px; } h1, h2 { font-size: 2rem; margin-bottom: 20px; color: #333; text-align: center; /* Horizontally center the title */ } p { font-size: 1.</description>
     </item>
     
   </channel>
