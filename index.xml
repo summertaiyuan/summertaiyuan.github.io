@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hello world ~~!</title>
-    <link>https://summertaiyuan.github.io/</link>
+    <link>https://github.com/summertaiyuan/summertaiyuan.github.io/</link>
     <description>Recent content on hello world ~~!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate><atom:link href="https://summertaiyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate><atom:link href="https://github.com/summertaiyuan/summertaiyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Title</title>
-      <link>https://summertaiyuan.github.io/post/title/</link>
+      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/title/</link>
       <pubDate>Fri, 10 Jan 2025 00:50:32 +0800</pubDate>
       
-      <guid>https://summertaiyuan.github.io/post/title/</guid>
+      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/post/title/</guid>
       <description></description>
     </item>
     
     <item>
       <title>This is for everyone</title>
-      <link>https://summertaiyuan.github.io/post/helloworld/</link>
+      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/helloworld/</link>
       <pubDate>Fri, 10 Jan 2025 00:25:28 +0800</pubDate>
       
-      <guid>https://summertaiyuan.github.io/post/helloworld/</guid>
+      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/post/helloworld/</guid>
       <description>划开夜的长空
  今后我将在这里记录我所有的笔记
 $$ a = 2 $$
@@ -30,10 +30,10 @@ $a = 1$</description>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://summertaiyuan.github.io/post/markdown_syntax_guide/</link>
+      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/markdown_syntax_guide/</link>
       <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
       
-      <guid>https://summertaiyuan.github.io/post/markdown_syntax_guide/</guid>
+      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/post/markdown_syntax_guide/</guid>
       <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
 H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
@@ -41,10 +41,10 @@ H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</de
     
     <item>
       <title>是树木游泳的力量</title>
-      <link>https://summertaiyuan.github.io/about/</link>
+      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/about/</link>
       <pubDate>Fri, 26 Apr 2019 20:18:54 +0300</pubDate>
       
-      <guid>https://summertaiyuan.github.io/about/</guid>
+      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/about/</guid>
       <description>.content_container { display: grid; grid-template-columns: 25% 30%; /* Create two columns with some space between */ gap: 0%; /* Adjust gap between the divs */ align-items: center; /* Vertically center the image */ box-shadow: 0 4px 6px rgba(255, 255, 255, 0.733); justify-content: center } .poem-container { text-align: center; max-width: 600px; line-height: 1.3; padding: 20px; background: #ffffff; {{/* box-shadow: 0 4px 6px rgba(177, 1, 212, 0.733); */}} border-radius: 20px; } h2 { font-size: 2rem; margin-bottom: 20px; color: #333; text-align: center; /* Horizontally center the title */ } p { font-size: 1.</description>
     </item>
     
