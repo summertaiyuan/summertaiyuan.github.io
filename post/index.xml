@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hello world ~~!</title>
-    <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/</link>
+    <link>https://juicebar-demo.add1.dev/post/</link>
     <description>Recent content in Posts on hello world ~~!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate><atom:link href="https://github.com/summertaiyuan/summertaiyuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate><atom:link href="https://juicebar-demo.add1.dev/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Title</title>
-      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/title/</link>
+      <link>https://juicebar-demo.add1.dev/post/title/</link>
       <pubDate>Fri, 10 Jan 2025 00:50:32 +0800</pubDate>
       
-      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/post/title/</guid>
+      <guid>https://juicebar-demo.add1.dev/post/title/</guid>
       <description></description>
     </item>
     
     <item>
       <title>This is for everyone</title>
-      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/helloworld/</link>
+      <link>https://juicebar-demo.add1.dev/post/helloworld/</link>
       <pubDate>Fri, 10 Jan 2025 00:25:28 +0800</pubDate>
       
-      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/post/helloworld/</guid>
+      <guid>https://juicebar-demo.add1.dev/post/helloworld/</guid>
       <description>划开夜的长空
  今后我将在这里记录我所有的笔记
 $$ a = 2 $$
@@ -30,10 +30,10 @@ $a = 1$</description>
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://github.com/summertaiyuan/summertaiyuan.github.io/post/markdown_syntax_guide/</link>
+      <link>https://juicebar-demo.add1.dev/post/markdown_syntax_guide/</link>
       <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
       
-      <guid>https://github.com/summertaiyuan/summertaiyuan.github.io/post/markdown_syntax_guide/</guid>
+      <guid>https://juicebar-demo.add1.dev/post/markdown_syntax_guide/</guid>
       <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
 H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
