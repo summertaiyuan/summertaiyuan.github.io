@@ -4,40 +4,30 @@
     <title>Posts on hello world ~~!</title>
     <link>https://summertaiyuan.github.io/post/</link>
     <description>Recent content in Posts on hello world ~~!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate><atom:link href="https://summertaiyuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate>
+    <atom:link href="https://summertaiyuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Title</title>
       <link>https://summertaiyuan.github.io/post/title/</link>
       <pubDate>Fri, 10 Jan 2025 00:50:32 +0800</pubDate>
-      
       <guid>https://summertaiyuan.github.io/post/title/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>This is for everyone</title>
       <link>https://summertaiyuan.github.io/post/helloworld/</link>
       <pubDate>Fri, 10 Jan 2025 00:25:28 +0800</pubDate>
-      
       <guid>https://summertaiyuan.github.io/post/helloworld/</guid>
-      <description>划开夜的长空
- 今后我将在这里记录我所有的笔记
-$$ a = 2 $$
-$a = 1$</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;划开夜的长空&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;今后我将在这里记录我所有的笔记&lt;/p&gt;&#xA;$$&#xA;a = 2&#xA;$$&lt;p&gt;$a = 1$&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://summertaiyuan.github.io/post/markdown_syntax_guide/</link>
       <pubDate>Thu, 16 Feb 2023 18:58:11 +0800</pubDate>
-      
       <guid>https://summertaiyuan.github.io/post/markdown_syntax_guide/</guid>
-      <description>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-Headings The following HTML &amp;lt;h1&amp;gt;—&amp;lt;h6&amp;gt; elements represent six levels of section headings. &amp;lt;h1&amp;gt; is the highest section level while &amp;lt;h6&amp;gt; is the lowest.
-H1 H2 H3 H4 H5 H6 Paragraph Xerum, quo qui aut unt expliquam qui dolut labo.</description>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;&#xA;&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;&#xA;&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
