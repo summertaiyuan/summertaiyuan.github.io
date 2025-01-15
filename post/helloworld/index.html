@@ -4,15 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>This is for everyone | hello world ~~!</title>
+    <title>linux 终端实用配置 | hello world ~~!</title>
     <meta name="description"
-        content="
-划开夜的长空
+        content="Tmux
+# Enable mouse
+set -g mouse on
 
-今后我将在这里记录我所有的笔记
-$$
-a = 2
-$$$a = 1$">
+# 快速调整（步长为 6 单位）
+bind -n M-h resize-pane -L 6  
+bind -n M-l resize-pane -R 6  
+bind -n M-j resize-pane -D 6  
+bind -n M-k resize-pane -U 6  
+
+bind -n C-h select-pane -L
+bind -n C-l select-pane -R
+bind -n C-j select-pane -D
+bind -n C-k select-pane -U
+
+# Copy mode
+setw -g mode-keys vi
+bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel &#34;xclip -selection clipboard&#34;
+
+# Reload config
+zsh
+export plugins=(git fzf zsh-autosuggestions sudo docker
+                zsh-z   zsh-syntax-highlighting
+zsh需要达到能用地步，需要配置如上插件">
     <link rel="canonical" href="https://summertaiyuan.github.io/post/helloworld/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     
@@ -20,10 +37,8 @@ $$$a = 1$">
 
     <meta property="og:url" content="https://summertaiyuan.github.io/post/helloworld/">
   <meta property="og:site_name" content="hello world ~~!">
-  <meta property="og:title" content="This is for everyone">
-  <meta property="og:description" content="划开夜的长空
-今后我将在这里记录我所有的笔记
-$$ a = 2 $$$a = 1$">
+  <meta property="og:title" content="linux 终端实用配置">
+  <meta property="og:description" content="Tmux # Enable mouse set -g mouse on # 快速调整（步长为 6 单位） bind -n M-h resize-pane -L 6 bind -n M-l resize-pane -R 6 bind -n M-j resize-pane -D 6 bind -n M-k resize-pane -U 6 bind -n C-h select-pane -L bind -n C-l select-pane -R bind -n C-j select-pane -D bind -n C-k select-pane -U # Copy mode setw -g mode-keys vi bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel &#34;xclip -selection clipboard&#34; # Reload config zsh export plugins=(git fzf zsh-autosuggestions sudo docker zsh-z zsh-syntax-highlighting zsh需要达到能用地步，需要配置如上插件">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -32,10 +47,8 @@ $$ a = 2 $$$a = 1$">
 
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="This is for everyone">
-  <meta name="twitter:description" content="划开夜的长空
-今后我将在这里记录我所有的笔记
-$$ a = 2 $$$a = 1$">
+  <meta name="twitter:title" content="linux 终端实用配置">
+  <meta name="twitter:description" content="Tmux # Enable mouse set -g mouse on # 快速调整（步长为 6 单位） bind -n M-h resize-pane -L 6 bind -n M-l resize-pane -R 6 bind -n M-j resize-pane -D 6 bind -n M-k resize-pane -U 6 bind -n C-h select-pane -L bind -n C-l select-pane -R bind -n C-j select-pane -D bind -n C-k select-pane -U # Copy mode setw -g mode-keys vi bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel &#34;xclip -selection clipboard&#34; # Reload config zsh export plugins=(git fzf zsh-autosuggestions sudo docker zsh-z zsh-syntax-highlighting zsh需要达到能用地步，需要配置如上插件">
 
     
     
@@ -149,7 +162,7 @@ $$ a = 2 $$$a = 1$">
 </header><main>
 <div class="single-container">
     <div class="archive">
-        <h1 class="title is-1">This is for everyone</h1>
+        <h1 class="title is-1">linux 终端实用配置</h1>
         <div class="title subtitle heading is-6">
             <div class="author-info columns is-vcentered">
                 <div class="column">
@@ -167,7 +180,7 @@ $$ a = 2 $$$a = 1$">
                     </div>
                 </div>
                 <div class="small-categories-container">
-                    <a href="/categories/essay">Essay</a>
+                    <a href="/categories/linux">linux</a>
                 </div>
             </div>
         </div>
@@ -175,6 +188,16 @@ $$ a = 2 $$$a = 1$">
             <div class="toc-container">
                 
     <div class="post-toc">
+        
+            <aside>
+                <button id="tocButton" ><h4 id="contents" style="margin-left: 1vw;color:rgb(96, 134, 180);margin-bottom: 0;">CONTENTS</h4></button>
+                <div id="hide"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#tmux">Tmux</a></li>
+    <li><a href="#zsh">zsh</a></li>
+  </ul>
+</nav></div>
+            </aside>
         
     </div><script>
     
@@ -196,14 +219,37 @@ $$ a = 2 $$$a = 1$">
 
 </script>
             </div>
-            <blockquote>
-<p>划开夜的长空</p>
-</blockquote>
-<p>今后我将在这里记录我所有的笔记</p>
-$$
-a = 2
-$$<p>$a = 1$</p>
-
+            <h2 id="tmux">Tmux</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Enable mouse</span>
+</span></span><span style="display:flex;"><span>set -g mouse on
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 快速调整（步长为 6 单位）</span>
+</span></span><span style="display:flex;"><span>bind -n M-h resize-pane -L <span style="color:#ae81ff">6</span>  
+</span></span><span style="display:flex;"><span>bind -n M-l resize-pane -R <span style="color:#ae81ff">6</span>  
+</span></span><span style="display:flex;"><span>bind -n M-j resize-pane -D <span style="color:#ae81ff">6</span>  
+</span></span><span style="display:flex;"><span>bind -n M-k resize-pane -U <span style="color:#ae81ff">6</span>  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>bind -n C-h <span style="color:#66d9ef">select</span>-pane -L
+</span></span><span style="display:flex;"><span>bind -n C-l <span style="color:#66d9ef">select</span>-pane -R
+</span></span><span style="display:flex;"><span>bind -n C-j <span style="color:#66d9ef">select</span>-pane -D
+</span></span><span style="display:flex;"><span>bind -n C-k <span style="color:#66d9ef">select</span>-pane -U
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Copy mode</span>
+</span></span><span style="display:flex;"><span>setw -g mode-keys vi
+</span></span><span style="display:flex;"><span>bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel <span style="color:#e6db74">&#34;xclip -selection clipboard&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Reload config</span>
+</span></span></code></pre></div><h2 id="zsh">zsh</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>export plugins<span style="color:#f92672">=(</span>git fzf zsh-autosuggestions sudo docker
+</span></span><span style="display:flex;"><span>                zsh-z   zsh-syntax-highlighting
+</span></span></code></pre></div><p>zsh需要达到能用地步，需要配置如上插件</p>
+<p>在命令行开始vim模式</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>set -o vi
+</span></span></code></pre></div><p>开启<code>z插件</code>后，可通过<code>z 目录任意词</code>迅速跳转到常见目录。bash可以通过安装<code>zoxide</code>进行常用目录快速跳转</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install zoxide
+</span></span><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>zoxide init bash<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span>source ~/.bashrc
+</span></span></code></pre></div>
         </div>
     </div>
     <a href="#" id="scrollToTopButton">

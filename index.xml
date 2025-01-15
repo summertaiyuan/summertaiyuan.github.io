@@ -6,8 +6,22 @@
     <description>Recent content on hello world ~~!</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Jan 2025 00:50:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2025 20:22:35 +0800</lastBuildDate>
     <atom:link href="https://summertaiyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AiAgent</title>
+      <link>https://summertaiyuan.github.io/post/aiagent/</link>
+      <pubDate>Tue, 14 Jan 2025 20:22:35 +0800</pubDate>
+      <guid>https://summertaiyuan.github.io/post/aiagent/</guid>
+      <description>&lt;h1 id=&#34;ai-agent&#34;&gt;Ai agent&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>ratation matrix</title>
+      <link>https://summertaiyuan.github.io/post/transfrom/</link>
+      <pubDate>Mon, 13 Jan 2025 20:37:48 +0800</pubDate>
+      <guid>https://summertaiyuan.github.io/post/transfrom/</guid>
+      <description>&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/362551995&#34;&gt;The theory of rotation&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Title</title>
       <link>https://summertaiyuan.github.io/post/title/</link>
@@ -16,11 +30,11 @@
       <description></description>
     </item>
     <item>
-      <title>This is for everyone</title>
+      <title>linux 终端实用配置</title>
       <link>https://summertaiyuan.github.io/post/helloworld/</link>
       <pubDate>Fri, 10 Jan 2025 00:25:28 +0800</pubDate>
       <guid>https://summertaiyuan.github.io/post/helloworld/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;划开夜的长空&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;今后我将在这里记录我所有的笔记&lt;/p&gt;&#xA;$$&#xA;a = 2&#xA;$$&lt;p&gt;$a = 1$&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;tmux&#34;&gt;Tmux&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Enable mouse&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;set -g mouse on&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 快速调整（步长为 6 单位）&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n M-h resize-pane -L &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n M-l resize-pane -R &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n M-j resize-pane -D &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n M-k resize-pane -U &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n C-h &lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt;-pane -L&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n C-l &lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt;-pane -R&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n C-j &lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt;-pane -D&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -n C-k &lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt;-pane -U&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Copy mode&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;setw -g mode-keys vi&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;xclip -selection clipboard&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Reload config&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;zsh&#34;&gt;zsh&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export plugins&lt;span style=&#34;color:#f92672&#34;&gt;=(&lt;/span&gt;git fzf zsh-autosuggestions sudo docker&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                zsh-z   zsh-syntax-highlighting&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;zsh需要达到能用地步，需要配置如上插件&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
