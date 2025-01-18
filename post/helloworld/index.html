@@ -195,6 +195,8 @@ zsh需要达到能用地步，需要配置如上插件">
   <ul>
     <li><a href="#tmux">Tmux</a></li>
     <li><a href="#zsh">zsh</a></li>
+    <li><a href="#vim">vim</a></li>
+    <li><a href="#仓库地址">仓库地址</a></li>
   </ul>
 </nav></div>
             </aside>
@@ -245,11 +247,23 @@ zsh需要达到能用地步，需要配置如上插件">
 </span></span></code></pre></div><p>zsh需要达到能用地步，需要配置如上插件</p>
 <p>在命令行开始vim模式</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>set -o vi
-</span></span></code></pre></div><p>开启<code>z插件</code>后，可通过<code>z 目录任意词</code>迅速跳转到常见目录。bash可以通过安装<code>zoxide</code>进行常用目录快速跳转</p>
+</span></span></code></pre></div><p>开启<em>z插件</em>后，可通过<em>z</em>目录任意词迅速跳转到常见目录。<em>bash</em> 可以通过安装<code>zoxide</code>进行常用目录快速跳转</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install zoxide
 </span></span><span style="display:flex;"><span>eval <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>zoxide init bash<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>source ~/.bashrc
-</span></span></code></pre></div>
+</span></span></code></pre></div><h2 id="vim">vim</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vim --version | grep clip 查询是否有剪贴板插件
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34; 复制到系统剪贴板
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">nnoremap &lt;C-c&gt; &#34;</span>+y
+</span></span><span style="display:flex;"><span>vnoremap &lt;C-c&gt; <span style="color:#e6db74">&#34;+y
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;</span> 从系统剪贴板粘贴
+</span></span><span style="display:flex;"><span>nnoremap &lt;C-v&gt; <span style="color:#e6db74">&#34;+p
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">inoremap &lt;C-v&gt; &#34;</span>+p
+</span></span></code></pre></div><h2 id="仓库地址">仓库地址</h2>
+<p><a href="https://pypi.nvidia.com/">nvidia python package repo</a></p>
+
         </div>
     </div>
     <a href="#" id="scrollToTopButton">

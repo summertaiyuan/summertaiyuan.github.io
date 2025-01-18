@@ -9,18 +9,18 @@
     <lastBuildDate>Tue, 14 Jan 2025 20:22:35 +0800</lastBuildDate>
     <atom:link href="https://summertaiyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AiAgent</title>
+      <title>Ai Agent改善自身工作流</title>
       <link>https://summertaiyuan.github.io/post/aiagent/</link>
       <pubDate>Tue, 14 Jan 2025 20:22:35 +0800</pubDate>
       <guid>https://summertaiyuan.github.io/post/aiagent/</guid>
-      <description>&lt;h1 id=&#34;ai-agent&#34;&gt;Ai agent&lt;/h1&gt;</description>
+      <description>&lt;h2 id=&#34;当前工作流的问题&#34;&gt;当前工作流的问题&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;现在每进入一个新的领域，都是胡乱的搜一通，形不成系统性的总结，所以很多领域了解过之后就完全忘了。所以考虑能否利用让agent自动的帮助我去搜寻某个领域的资料，帮助我能够快速了解某个领域，然后形成markdown文本，这样就能迅速推到我的blog，方便后续阅览。&lt;/li&gt;&#xA;&lt;li&gt;怎么样结合爬虫去更好的更新领域知识&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
-      <title>ratation matrix</title>
+      <title>Teleoperation</title>
       <link>https://summertaiyuan.github.io/post/transfrom/</link>
       <pubDate>Mon, 13 Jan 2025 20:37:48 +0800</pubDate>
       <guid>https://summertaiyuan.github.io/post/transfrom/</guid>
-      <description>&lt;h2 id=&#34;参考资料&#34;&gt;参考资料&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/362551995&#34;&gt;The theory of rotation&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;libero_sim:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export LD_LIBRARY_PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$LD_LIBRARY_PATH:/raid/xusha/.mujoco/mujoco210/bin&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export MUJOCO_PY_MUJOCO_PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/raid/xusha/.mujoco/mujoco210&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Title</title>
