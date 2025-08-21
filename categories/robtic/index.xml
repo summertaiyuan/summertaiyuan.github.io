@@ -13,7 +13,7 @@
       <link>https://summertaiyuan.github.io/post/transfrom/</link>
       <pubDate>Mon, 13 Jan 2025 20:37:48 +0800</pubDate>
       <guid>https://summertaiyuan.github.io/post/transfrom/</guid>
-      <description>&lt;p&gt;libero_sim:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export LD_LIBRARY_PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$LD_LIBRARY_PATH:/raid/xusha/.mujoco/mujoco210/bin&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export MUJOCO_PY_MUJOCO_PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/raid/xusha/.mujoco/mujoco210&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;h1 id=&#34;teleoperation&#34;&gt;Teleoperation:&lt;/h1&gt;&#xA;&lt;h2 id=&#34;spacemouse&#34;&gt;spacemouse&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>
